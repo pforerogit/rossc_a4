@@ -18,7 +18,7 @@
   <param name="vel_cntrl" value="true" type="bool"/>
   
   <!-- Subscription - what does the node listen to for navigation data?-->
-  <remap from="odometry/nav" to="odometry/nav" />
+  <remap from="odometry/nav" to="nav_odom" />
   <!-- Subscription - what does the node listen to for setpoint commands?-->
   <remap from="cmd_course" to="cmd_vel" />
   <!-- Publication - where does the node send the thrust commands?-->
